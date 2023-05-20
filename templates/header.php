@@ -9,17 +9,19 @@
           <li><a href="about.php">About</a></li>
           <li><a href="resume.php">Resume</a></li>
           <li><a href="services.php">Services</a></li>
-          <li><a href="portfolio.php">Portfolio</a></li>
           <li><a href="contact.php">Contact</a></li>
+          <li><a href="https://status.kelvincodes.nl/status/main" target="_blank">Network status</a></li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="#" class="discord"><i class="bi bi-discord"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="ttps://github.com/kelvin-codes-stuff" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://kelvincodes.nl/discord_invite" class="discord"><i class="bi bi-discord"></i></a>
+        <a href="https://www.facebook.com/kelvhc4l/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/kelvincodes.nl/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/kelvin-de-reus-052141152" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
 
     </div>
