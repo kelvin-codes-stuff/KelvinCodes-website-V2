@@ -601,7 +601,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #555555;
+  color: whitesmoke;
 }
 
 .about .content ul {
@@ -616,7 +616,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #34b7a7;
+  color: whitesmoke;
 }
 
 .about .content p:last-child {
@@ -641,7 +641,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: whitesmoke;
 }
 
 .skills .progress .skill .val {
