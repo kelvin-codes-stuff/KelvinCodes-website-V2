@@ -1,6 +1,6 @@
 <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
+    <div class="container-fluid d-flex justify-content-between align-items-right">
 
       <h1 class="logo me-auto me-lg-0"><a href="index.php">KelvinCodes</a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -28,3 +28,4 @@
 
   </header>
 <!-- End Header -->
+

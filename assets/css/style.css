@@ -51,7 +51,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #221b1b;
+  background: #000000;
 }
 
 #preloader:before {
@@ -465,7 +465,7 @@ h6 {
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #9F0707;
 }
 
 @media (min-width: 1024px) {

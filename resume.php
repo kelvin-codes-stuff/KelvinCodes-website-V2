@@ -41,6 +41,8 @@
 
   <!-- ======= Resume Section ======= -->
   <section id="resume" class="resume">
+  <div class="container" data-aos="fade-up">
+
     <div class="container">
 
       <div class="section-title">
