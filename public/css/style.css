@@ -1261,7 +1261,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: transparent;
+  background: black;
   padding: 30px 0;
   font-size: 14px;
   text-align: center;
