@@ -23,6 +23,8 @@
   <link href="{{asset('vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -276,6 +278,8 @@
 
     <!-- Template Main JS File -->
     <script src="{{asset('js/main.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
+
   </div>
 </body>
 
