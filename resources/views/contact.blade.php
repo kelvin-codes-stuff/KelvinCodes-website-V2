@@ -23,6 +23,7 @@
   <link href="{{asset('vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -88,8 +89,11 @@
           </div>
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-          <div class="row">
+
+        
+        <form action="" method="post" action="{{ route('contact.store') }}">
+        @csrf
+              <div class="row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
             </div>
@@ -139,6 +143,8 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('js/main.js')}}"></script>
+  <script src="{{asset('js/custom.js')}}"></script>
+
 
 </body>
 

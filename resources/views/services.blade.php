@@ -23,6 +23,8 @@
   <link href="{{asset('vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -53,7 +55,7 @@
                   <i class="bi bi-code-slash" style="color: #9F0707; font-size: 80px;"></i>
                 </div>
                 <h4><a href="">Discord bot development</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <p class="text-whitesmoke">Development and hosting of Discord bots</p>
               </div>
             </div>
 
@@ -64,7 +66,7 @@
                   <i class="bi bi-code-slash" style="color: #9F0707; font-size: 80px;"></i>
                 </div>
                 <h4><a href="">Backend web development</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                <p class="text-whitesmoke">Development, system integration</p>
               </div>
             </div>
 
@@ -75,7 +77,7 @@
                   <i class="bi bi-browser-chrome" style="color: #9F0707; font-size: 80px;"></i>
                 </div>
                 <h4><a href="">Web hosting</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                <p class="text-whitesmoke">Hosting of personal and company websites</p>
               </div>
             </div>
 
@@ -86,7 +88,7 @@
                   <i class="bi bi-controller" style="color: #9F0707; font-size: 80px;"></i>
                 </div>
                 <h4><a href="">Gamehosting</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p class="text-whitesmoke">Minecraft server hosting with AMP</p>
               </div>
             </div>
 
@@ -119,6 +121,8 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('js/main.js')}}"></script>
+  <script src="{{asset('js/custom.js')}}"></script>
+
 
 </body>
 

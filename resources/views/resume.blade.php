@@ -23,6 +23,8 @@
   <link href="{{asset('vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -94,7 +96,7 @@
             <div class="resume-item">
               <h4>Air duct fitter</h4>
               <h5>01-2019 - 11-2021</h5>
-              <p><em>Integralis, Netherlands</em></p>
+              <p class="text-whitesmoke"><em>Integralis, Netherlands</em></p>
               <p>
               <ul>
                 <li>Air duct fitter in hospitals, industrial building and homes</li>
@@ -104,7 +106,7 @@
             <div class="resume-item">
               <h4>IT employee</h4>
               <h5>11-2021 - 12-2021</h5>
-              <p><em>Centralpoint, Netherlands</em></p>
+              <p class="text-whitesmoke"><em>Centralpoint, Netherlands</em></p>
               <p>
               <ul>
                 <li>IT migration, delivering laptops to employees</li>
@@ -114,7 +116,7 @@
             <div class="resume-item">
               <h4>Helpdesk employee</h4>
               <h5>02-2022 - 06-2022</h5>
-              <p><em>Teleperformance, Netherlands</em></p>
+              <p class="text-whitesmoke"><em>Teleperformance, Netherlands</em></p>
               <p>
               <ul>
                   <li>First line helpdesk</li>
@@ -160,6 +162,8 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('js/main.js')}}"></script>
+  <script src="{{asset('js/custom.js')}}"></script>
+
 
 </body>
 

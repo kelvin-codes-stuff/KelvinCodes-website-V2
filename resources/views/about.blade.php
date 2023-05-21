@@ -23,6 +23,8 @@
   <link href="{{asset('vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -51,26 +53,26 @@
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Developer, gamer and IT fanatic</h3>
-              <p class="fst-italic">
+              <p class="fst-italic text-whitesmoke">
                 I'm a tech-geek with a love for programming, web hosting, hardware, software and building awesome projects!
               </p>
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 11 May 2001</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.kelvincodes.com</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Location:</strong> Enschede, Netherlands</li>
+                    <li class="text-whitesmoke"><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 11 May 2001</li>
+                    <li class="text-whitesmoke"><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.kelvincodes.com</li>
+                    <li class="text-whitesmoke"><i class="bi bi-rounded-right"></i> <strong>Location:</strong> Enschede, Netherlands</li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 22</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> Middle school</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> werk@kelvincodes.nl</li>
+                    <li class="text-whitesmoke"><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 22</li>
+                    <li class="text-whitesmoke"><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> Middle school</li>
+                    <li class="text-whitesmoke"><i class="bi bi-rounded-right"></i> <strong>Email:</strong> werk@kelvincodes.nl</li>
                   </ul>
                 </div>
               </div>
-              <p>To be added</p>
+              <p class="text-whitesmoke">To be added</p>
               <!--<p>
                 Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
                 Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
@@ -160,22 +162,22 @@
 
             <div class="col-lg-3 col-6 text-center">
               <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <p class="text-whitesmoke">Clients</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
               <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Languages that i code in</p>
+              <p class="text-whitesmoke">Languages that i code in</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
               <span data-purecounter-start="0" data-purecounter-end="750" data-purecounter-duration="1" class="purecounter"></span>
-              <p>2022 commits</p>
+              <p class="text-whitesmoke">2022 commits</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
               <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Servers that i own</p>
+              <p class="text-whitesmoke">Servers that i own</p>
             </div>
 
           </div>
@@ -276,6 +278,8 @@
 
     <!-- Template Main JS File -->
     <script src="{{asset('js/main.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
+
   </div>
 </body>
 
