@@ -42,3 +42,8 @@ Route::get('/services', function (){
 Route::get('/contact', function (){
     return view('contact');
 });
+
+
+// Contact from
+Route::get('/contactForm', [ContactUsFormController::class, 'createForm']);
+Route::post('/contactForm', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
