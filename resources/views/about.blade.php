@@ -46,7 +46,8 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/ik-cut.png" class="img-fluid" alt="" style="max-width:70%; align-items: center;">
+            <img src="{{asset('img/ik-cut.png')}}" class="img-fluid" alt="" style="max-width:70%; align-items: center;">
+
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Developer, gamer and IT fanatic</h3>

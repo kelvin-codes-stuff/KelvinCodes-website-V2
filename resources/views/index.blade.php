@@ -40,7 +40,7 @@
     <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
       <h1>KelvinCodes</h1>
       <h2>Developer, gamer and IT fanatic</h2>
-      <a href="about.html" class="btn-about">About Me</a>
+      <a href="/about" class="btn-about">About Me</a>
     </div>
   </section><!-- End Hero -->
 
