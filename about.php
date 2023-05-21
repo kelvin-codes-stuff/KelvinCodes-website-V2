@@ -60,7 +60,7 @@
                 <ul>
                   <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 11 May 2001</li>
                   <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.kelvincodes.com</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> Location: Enschede, Netherlands</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Location:</strong> Enschede, Netherlands</li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -87,7 +87,7 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
         </div>
 
         <div class="row skills-content">
@@ -196,13 +196,13 @@
               <div class="row">
                 <div class="col-lg-3 col-md-4">
                   <div class="icon-box">
-                    <i class="bi bi-windows" style="color: #9F0707;"></i>
+                    <i class="bi bi-windows interestsIcon" style="color: #9F0707;"></i>
                     <h3>Windows 10/11</h3>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                   <div class="icon-box">
-                    <i class="bi bi-ubuntu" style="color: #9F0707;"></i>
+                    <i class="bi bi-ubuntu interestsIcon" style="color: #9F0707;"></i>
                     <h3>Linux Ubuntu server LTS</h3>
                   </div>
                 </div>

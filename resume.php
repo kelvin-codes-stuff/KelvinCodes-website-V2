@@ -53,13 +53,14 @@
       <div class="row">
         <div class="col-lg-6">
 
-          <h3 class="resume-title">Project i work on</h3>
+          <h3 class="resume-title">Projects i work on</h3>
           <div class="resume-item">
             <h4>Contributer InvoicePlane</h4>
             <h5>1-5-2023</h5>
-            <p><em>Bug fixer and issue solver</em></p>
-            <p><a href="https://github.com/InvoicePlane/InvoicePlane/">Github (link)</a></p>
-
+            <ul>
+              <li>Bug fixer and issue solver</li>
+              <li><a href="https://github.com/InvoicePlane/InvoicePlane/">Github (link)</a></li>
+            </ul>
           </div>
           
           <!--
@@ -76,15 +77,19 @@
           <div class="resume-item">
             <h4>Python developer</h4>
             <h5>10-2022 - 4-2023</h5>
-            <p><em>In training by Getcertified.nl</em></p>
-            <p>Still in progress</p>
+            <ul>
+              <li>In training by Getcertified.nl</li>
+              <li>Still in progress</li>
+            </ul>
+
           </div>
           <div class="resume-item">
             <h4>Twickel college</h4>
             <h5>2014 - 2018</h5>
-            <p><em>Class 1/4</em></p>
-            <p>Not finished</p>
-          </div>
+            <ul>
+              <li>Class 1/4</li>
+              <li>Not finished</li>
+            </ul>          </div>
         </div>
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
