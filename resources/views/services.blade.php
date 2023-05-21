@@ -37,63 +37,64 @@
   <main id="main">
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
+    <div class="bg-services">
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Services i deliver for people</p>
-        </div>
+          <div class="section-title">
+            <h2>Services</h2>
+            <p>Services i deliver for people</p>
+          </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <i class="bi bi-code-slash" style="color: #9F0707; font-size: 80px;"></i>
+                </div>
+                <h4><a href="">Discord bot development</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon-box iconbox-orange ">
               <div class="icon">
-                <i class="bi bi-code-slash" style="color: #9F0707; font-size: 80px;"></i>
+                  <i class="bi bi-code-slash" style="color: #9F0707; font-size: 80px;"></i>
+                </div>
+                <h4><a href="">Backend web development</a></h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
               </div>
-              <h4><a href="">Discord bot development</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
-          </div>
 
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-orange ">
-            <div class="icon">
-                <i class="bi bi-code-slash" style="color: #9F0707; font-size: 80px;"></i>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon-box iconbox-pink">
+              <div class="icon">
+                  <i class="bi bi-browser-chrome" style="color: #9F0707; font-size: 80px;"></i>
+                </div>
+                <h4><a href="">Web hosting</a></h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
               </div>
-              <h4><a href="">Backend web development</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
-          </div>
 
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-pink">
-            <div class="icon">
-                <i class="bi bi-browser-chrome" style="color: #9F0707; font-size: 80px;"></i>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                  <i class="bi bi-controller" style="color: #9F0707; font-size: 80px;"></i>
+                </div>
+                <h4><a href="">Gamehosting</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
               </div>
-              <h4><a href="">Web hosting</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
-          </div>
 
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow">
-            <div class="icon">
-                <i class="bi bi-controller" style="color: #9F0707; font-size: 80px;"></i>
-              </div>
-              <h4><a href="">Gamehosting</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
           </div>
 
         </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
+      </section><!-- End Services Section -->
+    </div>
 
 
   </main><!-- End #main -->
