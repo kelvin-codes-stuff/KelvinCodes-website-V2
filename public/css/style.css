@@ -415,13 +415,24 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/bgnew.png") top right;
-  background-size: cover;
-  background-attachment: fixed;
+@media (min-width: 769px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bgnew.png") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
 
+@media (max-width: 769px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/dopemobilenew.jpg") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 #hero .container {
@@ -1281,37 +1292,82 @@ section {
 
 
 /*--------------------------------------------------------------
-# Backgrounds with overwrite
+# Backgrounds with overwrite desktop
 --------------------------------------------------------------*/
+@media (min-width: 769px) {
+  .bg-about {
+    width: 100%;
+    background: url("../img/bgnew.png") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
 
-.bg-about {
-  width: 100%;
-  background: url("../img/bgnew.png") top right;
-  background-size: cover;
-  background-attachment: fixed;
+@media (min-width: 769px) {
+  .bg-resume{
+    width: 100%;
+    background: url("../img/bgnew.png") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 769px) {
+  .bg-services{
+    width: 100%;
+    background: url("../img/bgnew.png") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 769px) {
+  .bg-contact{
+    width: 100%;
+    background: url("../img/bgnew.png") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 
-.bg-resume{
-  width: 100%;
-  background: url("../img/bgnew.png") top right;
-  background-size: cover;
-  background-attachment: fixed;
+
+/*--------------------------------------------------------------
+# Backgrounds with overwrite mobile
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .bg-about {
+    width: 100%;
+    background: url("../img/dopemobilenew.jpg") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
-
-.bg-services{
-  width: 100%;
-  background: url("../img/bgnew.png") top right;
-  background-size: cover;
-  background-attachment: fixed;
+@media (max-width: 768px) {
+  .bg-resume{
+    width: 100%;
+    background: url("../img/dopemobilenew.jpg") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
+@media (max-width: 768px) {
+  .bg-services{
+    width: 100%;
+    background: url("../img/dopemobilenew.jpg") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
 
-.bg-contact{
-  width: 100%;
-  background: url("../img/bgnew.png") top right;
-  background-size: cover;
-  background-attachment: fixed;
+@media (max-width: 768px) {
+  .bg-contact{
+    width: 100%;
+    background: url("../img/dopemobilenew.jpg") top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
